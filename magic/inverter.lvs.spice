@@ -1,0 +1,9 @@
+* NGSPICE file created from inverter.ext - technology: gf180mcuD
+
+.subckt inverter VCC VSS A Y
+X0 Y A VSS VSS nfet_03v3 ad=0.1619p pd=1.68u as=0.1619p ps=1.68u w=0.25u l=0.3u
+**devattr s=13432,524 d=6476,336
+X1 Y A VCC VCC pfet_03v3 ad=0.1619p pd=1.68u as=0.1619p ps=1.68u w=0.25u l=0.3u
+**devattr s=13432,524 d=6476,336
+.ends
+
