@@ -1,0 +1,190 @@
+
+Magic 8.3 revision 650 - Compiled on Wed May 27 11:06:10 ACST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology gf180mcuD ...
+10 Magic internal units = 1 Lambda
+Input style import: scaleFactor=10, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
+Scaled tech values by 10 / 1 to match internal grid scaling
+Loading gf180mcuD Device Generator Menu ...
+Loading "extract_for_lvs.tcl" from command line.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.000 x 0.000   ( 0.000,  0.000), ( 0.000,  0.000)
+lambda:     0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+internal:      0 x 0       (     0,  0    ), (     0,  0    )
+Cell inverter read from current working directory
+Scaled magic input cell inverter geometry by factor of 2
+Extracting inverter into inverter.ext:
+Processing inverter
+exttospice finished.
+Netgen 1.5.320 compiled on Wed May 27 11:20:32 ACST 2026
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Call to undefined subcircuit nfet_03v3
+Creating placeholder cell definition.
+Call to undefined subcircuit pfet_03v3
+Creating placeholder cell definition.
+Treating empty subcircuits as black-box cells
+
+Reading setup file /home/anton/ttsetup@ttgf26a/pdk/gf180mcuD/libs.tech/netgen/gf180mcuD_setup.tcl
+
+No property as found for device nfet_03v3
+No property ad found for device nfet_03v3
+No property ps found for device nfet_03v3
+No property pd found for device nfet_03v3
+No property as found for device pfet_03v3
+No property ad found for device pfet_03v3
+No property ps found for device pfet_03v3
+No property pd found for device pfet_03v3
+Model nfet_03v3 pin 1 == 3
+No property par1 found for device nfet_03v3
+No property NRD found for device nfet_03v3
+No property NRS found for device nfet_03v3
+No property par found for device nfet_03v3
+No property sa found for device nfet_03v3
+No property sb found for device nfet_03v3
+No property sd found for device nfet_03v3
+No property par found for device nfet_03v3
+No property dtemp found for device nfet_03v3
+No property nf found for device nfet_03v3
+No property $D found for device nfet_03v3
+No property $X found for device nfet_03v3
+No property $Y found for device nfet_03v3
+No such pin 1 in model nfet_03v3
+No property par1 found for device nfet_03v3
+No property NRD found for device nfet_03v3
+No property NRS found for device nfet_03v3
+No property par found for device nfet_03v3
+No property sa found for device nfet_03v3
+No property sb found for device nfet_03v3
+No property sd found for device nfet_03v3
+No property par found for device nfet_03v3
+No property dtemp found for device nfet_03v3
+No property as found for device nfet_03v3
+No property ad found for device nfet_03v3
+No property ps found for device nfet_03v3
+No property pd found for device nfet_03v3
+No property $D found for device nfet_03v3
+No property $X found for device nfet_03v3
+No property $Y found for device nfet_03v3
+Model pfet_03v3 pin 1 == 3
+No property par1 found for device pfet_03v3
+No property NRD found for device pfet_03v3
+No property NRS found for device pfet_03v3
+No property par found for device pfet_03v3
+No property sa found for device pfet_03v3
+No property sb found for device pfet_03v3
+No property sd found for device pfet_03v3
+No property par found for device pfet_03v3
+No property dtemp found for device pfet_03v3
+No property nf found for device pfet_03v3
+No property $D found for device pfet_03v3
+No property $X found for device pfet_03v3
+No property $Y found for device pfet_03v3
+No such pin 1 in model pfet_03v3
+No property par1 found for device pfet_03v3
+No property NRD found for device pfet_03v3
+No property NRS found for device pfet_03v3
+No property par found for device pfet_03v3
+No property sa found for device pfet_03v3
+No property sb found for device pfet_03v3
+No property sd found for device pfet_03v3
+No property par found for device pfet_03v3
+No property dtemp found for device pfet_03v3
+No property as found for device pfet_03v3
+No property ad found for device pfet_03v3
+No property ps found for device pfet_03v3
+No property pd found for device pfet_03v3
+No property $D found for device pfet_03v3
+No property $X found for device pfet_03v3
+No property $Y found for device pfet_03v3
+Matching pins of nfet_03v3 in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: nfet_03v3                       |Circuit 2: nfet_03v3                       
+-------------------------------------------|-------------------------------------------
+(no matching pin)                          |drain                                      
+(no matching pin)                          |drain                                      
+(no matching pin)                          |gate                                       
+(no matching pin)                          |gate                                       
+(no matching pin)                          |source                                     
+(no matching pin)                          |source                                     
+(no matching pin)                          |bulk                                       
+(no matching pin)                          |bulk                                       
+1                                          |(no matching pin)                          
+2                                          |(no matching pin)                          
+3                                          |(no matching pin)                          
+4                                          |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Matching pins of pfet_03v3 in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: pfet_03v3                       |Circuit 2: pfet_03v3                       
+-------------------------------------------|-------------------------------------------
+(no matching pin)                          |drain                                      
+(no matching pin)                          |drain                                      
+(no matching pin)                          |gate                                       
+(no matching pin)                          |gate                                       
+(no matching pin)                          |source                                     
+(no matching pin)                          |source                                     
+(no matching pin)                          |bulk                                       
+(no matching pin)                          |bulk                                       
+1                                          |(no matching pin)                          
+2                                          |(no matching pin)                          
+3                                          |(no matching pin)                          
+4                                          |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Comparison output logged to file lvs.report
+Logging to file "lvs.report" enabled
+
+Contents of circuit 1:  Circuit: 'nfet_03v3'
+Circuit nfet_03v3 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'nfet_03v3'
+Circuit nfet_03v3 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+
+Circuit nfet_03v3 contains no devices.
+
+Contents of circuit 1:  Circuit: 'pfet_03v3'
+Circuit pfet_03v3 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'pfet_03v3'
+Circuit pfet_03v3 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+
+Circuit pfet_03v3 contains no devices.
+
+Contents of circuit 1:  Circuit: 'inverter'
+Circuit inverter contains 2 device instances.
+  Class: nfet_03v3             instances:   1
+  Class: pfet_03v3             instances:   1
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'inverter'
+Circuit inverter contains 2 device instances.
+  Class: nfet_03v3             instances:   1
+  Class: pfet_03v3             instances:   1
+Circuit contains 12 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 12 nets,    Circuit 2 contains 12 nets.
+
+
+Final result: 
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+Logging to file "lvs.report" disabled
+LVS Done.
+LVS FAIL: match=FAIL properties=OK port=OK
