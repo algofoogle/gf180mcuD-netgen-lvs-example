@@ -8,10 +8,10 @@ E {}
 N 410 -310 410 -270 {lab=Y}
 N 410 -290 560 -290 {lab=Y}
 N 370 -340 370 -240 {lab=A}
-N 410 -210 410 -180 {lab=#net1}
+N 410 -210 410 -180 {lab=VSS}
 N 410 -400 410 -370 {lab=VCC}
 N 410 -340 450 -340 {lab=VCC}
-N 410 -240 450 -240 {lab=VCC}
+N 410 -240 450 -240 {lab=VSS}
 N 300 -290 370 -290 {lab=A}
 C {symbols/nfet_03v3.sym} 390 -240 0 0 {name=M1
 L=0.30u
@@ -29,7 +29,7 @@ spiceprefix=X
 }
 C {symbols/pfet_03v3.sym} 390 -340 0 0 {name=M2
 L=0.30u
-W=0.25u
+W=0.50u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
