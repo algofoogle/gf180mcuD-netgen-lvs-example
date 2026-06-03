@@ -23,7 +23,7 @@ In this repo, you will find:
     *   Magic executes [./magic/extract_for_lvs.tcl](./magic/extract_for_lvs.tcl) to do the layout extraction.
     *   Netgen executes [./magic/lvs_netgen.tcl](./magic/lvs_netgen.tcl) to do the LVS comparison.
 *   [./magic/do_lvs.log](./magic/do_lvs.log): Console output from running `do_lvs.sh`.
-*   [./magic/lvs.report](./magic/lvs.report): Netgen LVS report showing `DEVICE mismatches` and `Netlists do not match`.
+*   [./magic/lvs.report](./magic/lvs.report): Netgen LVS report showing a match.
 
 ## My environment where this was proven
 
